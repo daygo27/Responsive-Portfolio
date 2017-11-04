@@ -366,7 +366,7 @@ nav {
 
     .auth-image {
         float: left;
-        width: 230px;
+        max-width: 100%;
         height: auto;
         margin-top: 10px;
         margin-right: 25px;
