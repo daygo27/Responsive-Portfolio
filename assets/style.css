@@ -293,6 +293,8 @@ input[type=submit] {
           padding: 60px;
 
     }*/
+
+
     .main-section {
 
         max-width: 55%;
@@ -337,6 +339,22 @@ input[type=submit] {
           padding: 60px;
 
     }*/
+nav {
+
+        width: 100%;
+        float: none;
+        margin-top: 25px;
+        padding: 0 0 0px;
+        line-height: 50px;
+        position: relative;
+    
+
+    }
+    #logo{
+
+        width: 100%;
+    }
+
     .main-section {
 
         /*max-width: 55%;*/
