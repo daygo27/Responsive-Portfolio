@@ -281,7 +281,7 @@ input[type=submit] {
     }
 }
 
-@media all and (max-width: 768px) and (min-width: 480px) {
+@media all and (max-width: 768px) and (min-width: 480px)  {
 
     /*header{
 
@@ -341,7 +341,7 @@ input[type=submit] {
     }*/
 nav {
 
-        width: 100%;
+        max-width: 100%;
         float: none;
         margin-top: 25px;
         padding: 0 0 0px;
@@ -361,7 +361,7 @@ nav {
         margin-top: 60px;
         margin-bottom: 30px;
         height: auto;
-        background-color: blue;
+        /*background-color: blue;*/
     }
 
     .auth-image {
@@ -373,6 +373,11 @@ nav {
         padding: auto;
         margin-bottom:20px;
     }
+
+    .work {
+
+        max-width: 100%;
+    }
     .sidebar {
 
 
@@ -380,7 +385,7 @@ nav {
         max-width: 55%;
         float: left;
         margin: auto;
-        background-color: blue;
+        /*background-color: blue;*/
         height: auto;
         padding: auto;
         /*margin-top: 61px;*/
